@@ -1,0 +1,34 @@
+{
+  "name": "cypress-mocha-typescript",
+  "version": "1.0.0",
+  "description": "UI test automation framework poc using Cypress 12 with Mocha and Typescript",
+  "main": "index.js",
+  "scripts": {
+    "compile-test": "tsc",
+    "compile-test-watch": "tsc -w",
+    "cy:verify": "cypress verify",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thenavdeeprathore/cypress-mocha-typescript.git"
+  },
+  "keywords": [
+    "cypress",
+    "mocha",
+    "typescript",
+    "automation",
+    "testing"
+  ],
+  "author": "Navdeep Rathore",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thenavdeeprathore/cypress-mocha-typescript/issues"
+  },
+  "homepage": "https://github.com/thenavdeeprathore/cypress-mocha-typescript#readme",
+  "devDependencies": {
+    "cypress": "^12.11.0",
+    "typescript": "^5.0.4"
+  }
+}
