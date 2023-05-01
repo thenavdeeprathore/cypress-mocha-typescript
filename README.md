@@ -1,6 +1,6 @@
 # UI Test Automation POC using Cypress, Mocha, and TypeScript
 
-![UI Automation Framework](cypress/images/framework-recipe.png)
+![UI Automation Framework](https://github.com/thenavdeeprathore/cypress-mocha-typescript/blob/main/cypress/images/framework-recipe.png)
 
 This repository contains a proof-of-concept (POC) for UI test automation using [Cypress](https://www.cypress.io/), [Mocha](https://mochajs.org/), and [TypeScript](https://www.typescriptlang.org/). The POC is designed to demonstrate the capabilities of Cypress and Mocha for UI test automation, as well as the benefits of using TypeScript for writing robust and maintainable tests.
 
