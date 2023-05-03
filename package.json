@@ -6,6 +6,7 @@
   "scripts": {
     "compile-test": "tsc",
     "compile-test-watch": "tsc -w",
+    "clean": "rimraf dist",
     "cy:verify": "cypress verify",
     "cy:open": "cypress open",
     "cy:run": "cypress run"
@@ -29,6 +30,7 @@
   "homepage": "https://github.com/thenavdeeprathore/cypress-mocha-typescript#readme",
   "devDependencies": {
     "cypress": "^12.11.0",
+    "rimraf": "^5.0.0",
     "typescript": "^5.0.4"
   }
 }
